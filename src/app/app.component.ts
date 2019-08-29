@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Prodago01';
+  pageTitle: string = 'Page Title';
+  title = 'Prototype Prodago01';
 }
