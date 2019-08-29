@@ -1,0 +1,17 @@
+<!-- <div style="border:1px solid blue;"> -->
+<div>
+
+  <div class="sideBar">
+    <!-- This section gets pushed to the top-->
+    <div class="sideBar__section">
+      <div class="sideBar__item is-side-bar-item-selected"><a [routerLink]="['/dashboard']" i18n="@@Dashboard">Dashboard</a></div>
+      <div class="sideBar__item"> <a [routerLink]= "['/task']" i18n="@@Task">Task</a></div>
+      <div class="sideBar__item"> <a [routerLink]= "['/reports']" i18n="@@Reports">Reports</a></div>
+    </div>
+    <!-- This section gets pushed to the bottom-->
+    <div class="sideBar__section">
+        <div class="sideBar__item"> <a [routerLink]= "['/settings']" i18n="@@Settings">Settings</a></div>
+    </div>
+  </div>
+
+</div>
